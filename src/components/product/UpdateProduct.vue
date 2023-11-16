@@ -23,7 +23,7 @@
                     <label for="exampleInputEmail1">Product Image</label>
                     <input type="file" @change="imageFile" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-primary" @click="updateProduct">Update Product</button>
+                <button type="button" class="btn btn-primary" @click="updateProduct">Update Product</button>
             </div>
         </form>
     </div>
