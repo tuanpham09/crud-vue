@@ -1,0 +1,69 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "tuan",
+      "password": "123",
+      "email": "tuan@gmail.com",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "123",
+      "email": "admin@gmail.com",
+      "role": 0
+    },
+    {
+      "id": 3,
+      "username": "user1",
+      "password": "123",
+      "email": "user1@gmail.com",
+      "role": 1
+    },
+    {
+      "id": 4,
+      "username": "user2",
+      "password": "123",
+      "email": "user2@gmail.com",
+      "role": 1
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "iphone 11",
+      "description": "iphone 11 xịn",
+      "price": 5000,
+      "image": "02.png"
+    },
+    {
+      "id": 5,
+      "name": "iphone 15",
+      "description": "iphone 15 xịn",
+      "price": 5000,
+      "image": "02.png"
+    },
+    {
+      "id": 3,
+      "name": "iphone 13",
+      "description": "iphone 13 xịn",
+      "price": 5000,
+      "image": "01.jpg"
+    },
+    {
+      "id": "6",
+      "name": "pha",
+      "description": "tuanpf@gmail.com",
+      "price": "123",
+      "image": "../assets/01.jpg"
+    },
+    {
+      "id": "9",
+      "name": "phamtuan",
+      "description": "tuanpf@gmail.coma",
+      "price": "1232q3",
+      "image": "02.png"
+    }
+  ]
+}
