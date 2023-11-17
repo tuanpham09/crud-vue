@@ -26,13 +26,20 @@ import { RouterLink, RouterView } from 'vue-router'
   text-decoration: none;
   transform: scale(1.0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.ml-15:hover {
+  background-color: rgba(175, 173, 30, 0.781);
+  border-radius: 5px
+    /* Màu khi di chuột qua */
 }
 
 .login-register {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
-  /* Add margin to separate login and register forms */
+
 }
 
 .mr-15 {

@@ -5,14 +5,16 @@
       "username": "tuan",
       "password": "123",
       "email": "tuan@gmail.com",
-      "role": 1
+      "role": 1,
+      "token": "12321321312"
     },
     {
       "id": 2,
       "username": "admin",
       "password": "123",
       "email": "admin@gmail.com",
-      "role": 0
+      "role": 0,
+      "token": "12312311222312"
     },
     {
       "id": 3,

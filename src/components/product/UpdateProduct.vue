@@ -44,7 +44,7 @@ const product = ref({
 const id = route.params.id
 const getData = async () => {
     try {
-        const response = await axios.get(`http://localhost:3000/product/${route.params.id}`);
+        const response = await axios.get(`http://localhost:3000/product/${id}`);
         product.value = response.data;
     } catch (err) {
         console.log(err.message);
@@ -53,17 +53,14 @@ const getData = async () => {
 onMounted(getData);
 const imageFile = (event) => {
     product.value.image = event.target.files[0].name;
+
+    // lưu ảnh vào assets
 }
 
 const updateProduct = async () => {
     console.log(product.value)
     try {
-        await axios.put(`http://localhost:3000/product/${id}`, {
-            name: product.value.name,
-            price: product.value.price,
-            description: product.value.description,
-            image: product.value.image
-        }).then(res => console.log(res));
+        await axios.put(`http://localhost:3000/product/${id}`, product.value) //product/edit/
         console.log('Product updated successfully:', response.data);
     } catch (error) {
         console.error('Error updating product:', error);
